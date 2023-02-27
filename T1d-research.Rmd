@@ -1,12 +1,8 @@
 ---
 title: "T1D Study "
 description: |
-  Research is awesome!
+  Some things to know before you dive in! 
 author:
-  - name: Tian Walker
-    url: https://example.com/norajones
-    affiliation: University of Oregon
-    affiliation_url: https://oregon.qualtrics.com/jfe/form/SV_eYgdVcSkzMaww5g
 date: 02-21-2023
 output:
   distill::distill_article:
@@ -19,13 +15,35 @@ knitr::opts_chunk$set(echo = FALSE)
 # Learn more about creating blogs with Distill at:
 # https://rstudio.github.io/distill/blog.html
 
+library(rio)
+library(here)
+library(tidyverse)
+
+data <- import(here("reg_data.csv"))
 ```
+
+
+### Type 1 diabetes can hit at any age, and does not ever go away
+
+```{r echo=FALSE}
+
+data %>% 
+  ggplot(aes(age, ywd)) + geom_point(size = 4, color = "deepskyblue2") + labs(caption = "note that there are older adults who had diabetes a short time and young adults who have had diabetes for a long time", y = "years with diabetes")  + theme_classic() + theme( panel.grid = element_blank()) 
+ 
+```
+
+### It is extremely difficult to keep blood sugar in the target zone! Blood sugar outcomes do not always match the effort that is put into management. 
+
+```{r}
+data %>% 
+  ggplot(aes(des_score, dds_means)) + geom_point(aes(size = percent_time_70_180 ), color = "deeppink4") + labs ( x = "Diabetes Empowement Score", y = "Diabetes Distress Score") + theme_classic() + theme( panel.grid = element_blank()) 
+
+#+ theme (color = FALSE)
+```
+
 
 Click here for a deep dive into research findings:
-https://tianwalker44.github.io/diabetes_dashboard/
 
-```{r echo=TRUE}
-#cool graph goes here! 
-```
+## **https://tianwalker44.github.io/diabetes_dashboard/**
 
 
