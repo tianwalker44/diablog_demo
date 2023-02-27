@@ -1,0 +1,62 @@
+---
+title: "Scales"
+description: |
+  We used both validated scales and researcher-created questions
+
+  
+date: 02-21-2023
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating blogs with Distill at:
+# https://rstudio.github.io/distill/blog.html
+
+```
+
+ **What is a validated scale?** 
+
+A validated scale is a set of questions that allow researchers to ask about a subject in a reliable way. Research studies are done to make sure that people understand what each question is asking as closely as possible and that no two questions are too similar. 
+
+Pros: we can count on them more and expect more accurate results
+Cons: they take a long time to develop and sometimes we want to ask questions about things that no one has developed a validated scale for yet. Also, sometimes the questions become outdated. 
+
+
+ **What is a researcher-created question?** 
+
+A researcher-created question refers to a question written for the first time by a researcher. The researcher looks for validated scales on the topic of interest and if none exist, they write their own question. Often times the researcher asks people in the community to test the questions and provide feedback about them. 
+
+Pros: questions can be written about anything, can capture the most current state of the subject of the questions, and can bring new types of information into the research world
+
+Cons: people might interpret the question differently from one another, the wording of the question might not be perfect, and the excpectations of the accuracy in the responses is lower
+
+
+Click here for a deep dive into research findings:
+https://tianwalker44.github.io/diabetes_dashboard/
+
+```{r echo=FALSE, include=FALSE}
+validated_scales <- c("Diabetes Empowerment", "Diabetes Distress", "Health Engagement", "Depression", "Anxiety", "Overall Health", "Diabetes Knowledge")
+
+
+```
+
+# Validated Scales were used for: 
+- Diabetes Empowerment
+- Diabetes Distress 
+- Health Engagement
+- Depression
+- Anxiety
+- Overall Health 
+- Diabetes Knowledge
+
+# Resarcher created questions were used for:
+
+- Self-adjustment of insulin
+- Experiences of feeling symptoms
+- Use of resources
+
+

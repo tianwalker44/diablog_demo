@@ -1,0 +1,17 @@
+name: "diablog_demo"
+title: "Diabetes Research Blog "
+description: |
+  Diabetes Research Blog 
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "T1D Research"  
+      href: T1d-research.html
+    - text: "Scales"  
+      href: Scales.html
+      
+output: distill::distill_article

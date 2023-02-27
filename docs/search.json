@@ -1,0 +1,43 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this Study",
+      "description": "The Study of Life with Type 1 Diabetes is a mixed-method study aimed at <br>1. gaining a multifaceted understanding of what it is like to feel blood sugar levels that are consistently higher and lower than what an average person experiences\n<br>2. Determining the role of resources in making like with diabetes more manageable, \n<br>3. Assessing the relationship that self adjusting diabetes medication (insulin) has with diabetes outcomes (inclduing mental and physical health as well as blood sugar), and\n<br>4. Exploring what factors are associated with the highest levels of wellbeing among people living with type 1 diabetes",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2023-02-26T18:39:06-08:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Diabetes Research Blog ",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2023-02-26T18:39:07-08:00"
+    },
+    {
+      "path": "Scales.html",
+      "title": "Scales",
+      "description": "We used both validated scales and researcher-created questions\n",
+      "author": [],
+      "date": "02-21-2023",
+      "contents": "\nWhat is a validated scale?\nA validated scale is a set of questions that allow researchers to ask about a subject in a reliable way. Research studies are done to make sure that people understand what each question is asking as closely as possible and that no two questions are too similar.\nPros: we can count on them more and expect more accurate results\nCons: they take a long time to develop and sometimes we want to ask questions about things that no one has developed a validated scale for yet. Also, sometimes the questions become outdated.\nWhat is a researcher-created question?\nA researcher-created question refers to a question written for the first time by a researcher. The researcher looks for validated scales on the topic of interest and if none exist, they write their own question. Often times the researcher asks people in the community to test the questions and provide feedback about them.\nPros: questions can be written about anything, can capture the most current state of the subject of the questions, and can bring new types of information into the research world\nCons: people might interpret the question differently from one another, the wording of the question might not be perfect, and the excpectations of the accuracy in the responses is lower\nClick here for a deep dive into research findings:\nhttps://tianwalker44.github.io/diabetes_dashboard/\nValidated Scales were used for:\nDiabetes Empowerment\nDiabetes Distress\nHealth Engagement\nDepression\nAnxiety\nOverall Health\nDiabetes Knowledge\nResarcher created questions were used for:\nSelf-adjustment of insulin\nExperiences of feeling symptoms\nUse of resources\n\n\n\n",
+      "last_modified": "2023-02-26T18:39:07-08:00"
+    },
+    {
+      "path": "T1d-research.html",
+      "title": "T1D Study ",
+      "description": "Research is awesome!\n",
+      "author": [
+        {
+          "name": "Tian Walker",
+          "url": "https://example.com/norajones"
+        }
+      ],
+      "date": "02-21-2023",
+      "contents": "\nClick here for a deep dive into research findings:\nhttps://tianwalker44.github.io/diabetes_dashboard/\n\n\n#cool graph goes here! \n\n\n\n\n\n",
+      "last_modified": "2023-02-26T18:39:07-08:00"
+    }
+  ],
+  "collections": ["posts/posts.json"]
+}
