@@ -5,13 +5,16 @@ description: |
 output_dir: "docs"
 navbar:
   right:
+  
     - text: "Home"
       href: index.html
-    - text: "About"
+    - text: "What is type 1 diabetes?"
+      href: t1d.html
+    - text: "About the researcher"
       href: about.html
-    - text: "T1D Research"  
-      href: T1d-research.html
     - text: "Scales"  
       href: Scales.html
+    - text: "T1D Research"  
+      href: T1d-research.html
       
 output: distill::distill_article

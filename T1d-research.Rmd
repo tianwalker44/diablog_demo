@@ -28,7 +28,7 @@ data <- import(here("reg_data.csv"))
 ```{r echo=FALSE}
 
 data %>% 
-  ggplot(aes(age, ywd)) + geom_point(size = 4, color = "deepskyblue2") + labs(caption = "note that there are older adults who had diabetes a short time and young adults who have had diabetes for a long time", y = "years with diabetes")  + theme_classic() + theme( panel.grid = element_blank()) 
+  ggplot(aes(age, ywd)) + geom_point(size = 4, color = "deepskyblue2") + labs(caption = "note that there are older adults who had diabetes a short time and young adults who have had diabetes for a long time", y = "years with diabetes", title = "A peak at the people in our study:")  + theme_classic() + theme( panel.grid = element_blank()) 
  
 ```
 

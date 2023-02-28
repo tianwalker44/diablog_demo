@@ -2,20 +2,15 @@
   {
     "path": "posts/welcome/",
     "title": "Welcome! ",
-    "description": "Diabetes is tough but it brings us together!",
-    "author": [
-      {
-        "name": "Tian Walker",
-        "url": "https://example.com/norajones"
-      }
-    ],
+    "description": "Read this for how to use this site!",
+    "author": [],
     "date": "2023-02-21",
     "categories": [
       "Research"
     ],
-    "contents": "\n\n\n\n",
+    "contents": "\nThis is a website designed to share and explain research about life with type 1 diabetes!\n1 Click through the tabs to learn about the different components of the research\n2 Go to the T1D study tab to see some preliminary results and link to the main study findings page\n\n\n\n",
     "preview": {},
-    "last_modified": "2023-02-21T13:21:58-08:00",
+    "last_modified": "2023-02-27T22:13:16-08:00",
     "input_file": {}
   }
 ]
