@@ -10,7 +10,7 @@ navbar:
       href: index.html
     - text: "What is type 1 diabetes?"
       href: t1d.html
-    - text: "About the researcher"
+    - text: "About the Study"
       href: about.html
     - text: "Scales"  
       href: Scales.html
